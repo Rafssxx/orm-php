@@ -11,6 +11,8 @@
 # Backup copies created by various editors or development tools
 *~
 
+*.env
+
 # Patches downloaded to patch files or to apply open source contributions
 *.patch
 
