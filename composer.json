@@ -1,0 +1,17 @@
+{
+    "name": "rafael/orm",
+    "autoload": {
+        "psr-4": {
+            "Rafael\\Orm\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Rafael Silva",
+            "email": "rafaelsds3.aluno@unipampa.edu.br"
+        }
+    ],
+    "require": {
+        "vlucas/phpdotenv": "^5.6"
+    }
+}
