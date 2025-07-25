@@ -1,6 +1,6 @@
 <?php
 
-namespace Maping\Models;
+namespace Rafael\Orm\MapingEntitys\Maping;
 
 use Dotenv\Dotenv;
 use PDO;
@@ -26,7 +26,7 @@ class Connection
     private static function createConnection(): void
     {
         try {
-            $dotenv = Dotenv::createImmutable(__DIR__ . '/../../');
+            $dotenv = Dotenv::createImmutable(__DIR__ . '/../../../');
             $dotenv->load();
             $dotenv->required(['DB_HOST', 'DB_USER', 'DB_PASSWORD', 'DB_NAME', 'DB_PORT']);
 

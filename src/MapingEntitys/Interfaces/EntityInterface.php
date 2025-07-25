@@ -1,20 +1,21 @@
 <?php
-namespace Maping\EntityInterface;
+
+namespace Rafael\Orm\MapingEntitys\Interfaces;
 
 
 interface EntityInterface
 {
 
-    public function create();
+    public function create(array $data);
 
 
-    public function update();
+    public function update(array $data);
 
 
-    public function delete();
+    public function delete(int $id);
 
 
-    public function findById();
+    public function findById(int $id);
 
     public function all();
 }
